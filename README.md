@@ -1,4 +1,4 @@
-Extension of the safety factor to the problem diagram is obtained using LLMs based on FBN logical reasoning
+Extension of the safety factor to the problem diagram is obtained using LLMs based on FBN logical reasoning：
 
 1.Feedback results from LLMs：Interact with LLMs to get the a priori probability assessment results of faulty nodes and the association strength assessment results between nodes
 
