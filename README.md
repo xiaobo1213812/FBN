@@ -1,5 +1,7 @@
 # PF4SAFE: Problem Frames extension for Safety Analysis based on FBN Evaluation
-## :blush:
+## :blush: Declaration
+This repository contains a summary overview of this paper, as well as the open-source code, data, and experimentalresults that we have released.
+
 ## bbb
 
 Extension of the safety factor to the problem diagram is obtained using LLMs based on FBN logical reasoning：
