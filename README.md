@@ -19,6 +19,8 @@ This repository contains a summary overview of this paper, as well as the Condit
 
 ### 📊The Conditional Probability Tables (CPT)
 
+The conditional probability table(CPT) of leaf nodes and intermediate nodes in the Bayesian network can be obtained from the mapping of fault tree logic gates, and the node association strengths are input into Niosy-OR model to obtain the CPT of each node.
+
 | **Cause**               | **Causes type**       | **Association strength（conditional probability）**                                                                 |
 |-------------------------|-----------------------|-------------------------------------------------------------------------------------------------------------------|
 | Manufacturing defect x1 | Material factors Y1   | P(y1 \| x1=0, x2=0) = 0.0000<br>P(y1 \| x1=0, x2=1) = 0.5400<br>P(y1 \| x1=1, x2=0) = 0.5950<br>P(y1 \| x1=1, x2=1) = 0.8137 |
@@ -44,4 +46,3 @@ This repository contains a summary overview of this paper, as well as the Condit
 
 Extension of the safety factor to the problem diagram is obtained using LLMs based on FBN logical reasoning：
 
-CPT：The conditional probability table of leaf nodes and intermediate nodes in the Bayesian network can be obtained from the mapping of fault tree logic gates, and the node association strengths are input into Niosy-OR model to obtain the CPT of each node.
