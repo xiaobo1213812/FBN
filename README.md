@@ -1,8 +1,18 @@
 # PF4SAFE: Problem Frames extension for Safety Analysis based on FBN Evaluation
 ## :blush: Declaration
-This repository contains a summary overview of this paper, as well as the Conditional Probability Tables(CPT) and the content of the questionnaire that we have proposed.
+This repository contains a summary overview of this paper, as well as the Conditional Probability Tables(CPT) and the content of questionnaire that we have proposed.
 
-## bbb
+## 📄Overview
+🔍Objective:
+💡Method:
+✒Conclusion:
+
+## 📊The Conditional Probability Tables (CPT)
+
+
+## 🗞The content of questionnaire
+
+
 
 Extension of the safety factor to the problem diagram is obtained using LLMs based on FBN logical reasoning：
 
