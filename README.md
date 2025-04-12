@@ -7,7 +7,9 @@ This repository contains a summary overview of this paper, as well as the Condit
 
 💡Method: In this paper, we propose an approach  based on FBN logical reasoning, eventually extended to problem diagram, to analyse safety requirements at a fine-grained level. Firstly, we interact with five LLMs to determine the priori and conditional probabilities via a triangular fuzzy function. We perform logical inference through FBN to derive the posteriori probabilities, which are transformed into system safety factors to determine the safety thresholds of each element in the system. Finally, the relevant fault nodes are mapped to the problem boundaries and the safety factors are visualised onto the problem diagram to extend the PF. We have analysed and verified a classical case of an airline's composite wing panels fault.
 
-✒Contribution: 1) A prompt word template based on LLMs for analyzing safety requirements from faults is constructed, and role design is defined by prompt words to support requirements acquisition and fault assessment. 
+✒Contribution:
+
+1) A prompt word template based on LLMs for analyzing safety requirements from faults is constructed, and role design is defined by prompt words to support requirements acquisition and fault assessment. 
 
 2) The analysis of safety requirements can be synthesized into intuitive, systematic visualization charts with quantitative and qualitative analysis of the relationship between elements in the form of problem diagrams, thus increasing the granularity of safety requirements in the diagrams.
 
