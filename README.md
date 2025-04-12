@@ -15,11 +15,17 @@ This repository contains a summary overview of this paper, as well as the Condit
 
 3) Method evaluation and case study are carried out, and the method evaluation proved the reliability of the PF4SAFE method, and the case study proved its feasibility.
 
+## 💭Data
 
-## 📊The Conditional Probability Tables (CPT)
+### 📊The Conditional Probability Tables (CPT)
+
+| 列1标题 | 列2标题 | 列3标题 |
+|--------|--------|--------|
+| 内容1  | 内容2  | 内容3  |
+| 内容4  | 内容5  | 内容6  |
 
 
-## 🗞The content of questionnaire
+### 🗞The content of questionnaire
 
 
 
