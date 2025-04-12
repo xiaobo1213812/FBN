@@ -42,7 +42,10 @@ The conditional probability table(CPT) of leaf nodes and intermediate nodes in t
 
 ### 🗞The content of questionnaire
 
-
-
-Extension of the safety factor to the problem diagram is obtained using LLMs based on FBN logical reasoning：
+1. Whether the diagram does have key elements?(1 to 5)
+2. Whether the relationship between the components in the diagram is easy to understand?(1 to 5)
+3. Whether the logical relationships in the diagram are clear?(1 to 5)
+4. Whether the diagram involves safety requirements and constraints?(1 to 5)
+5. Whether the safety information in the diagram is easy to read and understand?(1 to 5)
+6. Whether the safety information in the diagram can directly provide you with the value of requirement prioritization?(1 to 5)
 
