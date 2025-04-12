@@ -1,6 +1,6 @@
 # PF4SAFE: Problem Frames extension for Safety Analysis based on FBN Evaluation
 ## :blush: Declaration
-This repository contains a summary overview of this paper, as well as the open-source code, data, and experimentalresults that we have released.
+This repository contains a summary overview of this paper, as well as the Conditional Probability Tables(CPT) and the content of the questionnaire that we have proposed.
 
 ## bbb
 
