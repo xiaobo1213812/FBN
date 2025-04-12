@@ -49,3 +49,4 @@ The conditional probability table(CPT) of leaf nodes and intermediate nodes in t
 5. Whether the safety information in the diagram is easy to read and understand?(1 to 5)
 6. Whether the safety information in the diagram can directly provide you with the value of requirement prioritization?(1 to 5)
 
+Questions 1 is related to 'Graph granularity', questions 2 and 3 relate to 'Comprehensibility', questions 4, 5 and 6 relate to 'Safety value'.
