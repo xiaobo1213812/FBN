@@ -19,11 +19,24 @@ This repository contains a summary overview of this paper, as well as the Condit
 
 ### 📊The Conditional Probability Tables (CPT)
 
-| 列1标题 | 列2标题 | 列3标题 |
-|--------|--------|--------|
-| 内容1  | 内容2  | 内容3  |
-| 内容4  | 内容5  | 内容6  |
-
+| **Cause**               | **Causes type**       | **Association strength（conditional probability）**                                                                 |
+|-------------------------|-----------------------|-------------------------------------------------------------------------------------------------------------------|
+| Manufacturing defect x1 | Material factors Y1   | P(y1 \| x1=0, x2=0) = 0.0000<br>P(y1 \| x1=0, x2=1) = 0.5400<br>P(y1 \| x1=1, x2=0) = 0.5950<br>P(y1 \| x1=1, x2=1) = 0.8137 |
+| Material aging x2       |                       |                                                                                                                   |
+| Design flaw x3          | Human factors H       | P(y2 \| x1=0, x2=0) = 0.0000<br>P(y2 \| x1=0, x2=1) = 0.4920<br>P(y2 \| x1=1, x2=0) = 0.4050<br>P(y2 \| x1=1, x2=1) = 0.6977 |
+| Inadequate operational processes x4 |                       |                                                                                                                   |
+| Climatic factor x5      | External environmental factors Y3 | P(y3 \| x1=0, x2=0) = 0.0000<br>P(y3 \| x1=0, x2=1) = 0.3650<br>P(y3 \| x1=1, x2=0) = 0.2800<br>P(y3 \| x1=1, x2=1) = 0.5428 |
+| External shocks and accident x6 |                       |                                                                                                                   |
+| Mechanical breakdown X7 | Equipment factors Y4  | P(y4 \| x1=0, x2=0, x3=0) = 0.0000<br>P(y4 \| x1=0, x2=0, x3=1) = 0.5950<br>P(y4 \| x1=0, x2=1, x3=0) = 0.6400<br>P(y4 \| x1=0, x2=1, x3=1) = 0.8542<br>P(y4 \| x1=1, x2=0, x3=0) = 0.6000<br>P(y4 \| x1=1, x2=0, x3=1) = 0.8380<br>P(y4 \| x1=1, x2=1, x3=0) = 0.8560<br>P(y4 \| x1=1, x2=1, x3=1) = 0.9417 |
+| Gauge failure X8        |                       |                                                                                                                   |
+| Hydraulic failure x9    |                       |                                                                                                                   |
+| Improper maintenance x10 | Maintenance and inspection factors Y2 | P(y5 \| x1=0, x2=0) = 0.0000<br>P(y5 \| x1=0, x2=1) = 0.7300<br>P(y5 \| x1=1, x2=0) = 0.5000<br>P(y5 \| x1=1, x2=1) = 0.8650 |
+| Improper inspection x11 |                       |                                                                                                                   |
+| Material factors Y1     | Failure of composite wing skin materials H | P(H \| x1=0, x2=0, x3=0, x4=0, x5=0) = 0.0000<br>P(H \| x1=0, x2=0, x3=0, x4=0, x5=1) = 0.7350<br>P(H \| x1=0, x2=0, x3=0, x4=1, x5=0) = 0.6200<br>P(H \| x1=0, x2=0, x3=0, x4=1, x5=1) = 0.8993<br>P(H \| x1=0, x2=0, x3=1, x4=0, x5=0) = 0.6150<br>P(H \| x1=0, x2=0, x3=1, x4=0, x5=1) = 0.8980<br>P(H \| x1=0, x2=0, x3=1, x4=1, x5=0) = 0.8537<br>P(H \| x1=0, x2=0, x3=1, x4=1, x5=1) = 0.9612<br>P(H \| x1=0, x2=1, x3=0, x4=0, x5=0) = 0.6600<br>P(H \| x1=0, x2=1, x3=0, x4=0, x5=1) = 0.9099<br>P(H \| x1=0, x2=1, x3=0, x4=1, x5=0) = 0.8708<br>P(H \| x1=0, x2=1, x3=0, x4=1, x5=1) = 0.9658<br>P(H \| x1=0, x2=1, x3=1, x4=0, x5=0) = 0.8691<br>P(H \| x1=0, x2=1, x3=1, x4=0, x5=1) = 0.9653<br>P(H \| x1=0, x2=1, x3=1, x4=1, x5=0) = 0.9503<br>P(H \| x1=0, x2=1, x3=1, x4=1, x5=1) = 0.9868<br>P(H \| x1=1, x2=0, x3=0, x4=0, x5=0) = 0.9000<br>P(H \| x1=1, x2=0, x3=0, x4=0, x5=1) = 0.9735<br>P(H \| x1=1, x2=0, x3=0, x4=1, x5=0) = 0.9620<br>P(H \| x1=1, x2=0, x3=0, x4=1, x5=1) = 0.9899<br>P(H \| x1=1, x2=0, x3=1, x4=0, x5=0) = 0.9615<br>P(H \| x1=1, x2=0, x3=1, x4=0, x5=1) = 0.9898<br>P(H \| x1=1, x2=0, x3=1, x4=1, x5=0) = 0.9854<br>P(H \| x1=1, x2=0, x3=1, x4=1, x5=1) = 0.9961<br>P(H \| x1=1, x2=1, x3=0, x4=0, x5=0) = 0.9660<br>P(H \| x1=1, x2=1, x3=0, x4=0, x5=1) = 0.9910<br>P(H \| x1=1, x2=1, x3=0, x4=1, x5=0) = 0.9871<br>P(H \| x1=1, x2=1, x3=0, x4=1, x5=1) = 0.9966<br>P(H \| x1=1, x2=1, x3=1, x4=0, x5=0) = 0.9869<br>P(H \| x1=1, x2=1, x3=1, x4=0, x5=1) = 0.9965<br>P(H \| x1=1, x2=1, x3=1, x4=1, x5=0) = 0.9950<br>P(H \| x1=1, x2=1, x3=1, x4=1, x5=1) = 0.9987 |
+| Human factors Y2        |                       |                                                                                                                   |
+| External environmental factors Y3 |                       |                                                                                                                   |
+| Equipment factors Y4    |                       |                                                                                                                   |
+| Maintenance and inspection factors H |                       |                                                                                                                   |
 
 ### 🗞The content of questionnaire
 
